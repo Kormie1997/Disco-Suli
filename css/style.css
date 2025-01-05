@@ -3,5 +3,19 @@ body {
   font-family: "Oxanium", serif;
   font-optical-sizing: auto;
   font-style: normal;
+  text-align: justify;
 }
 
+.navbar { 
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
+}
+
+.content { 
+  padding: 60px 20px; /* Hagyjunk helyet a fix navigációs menünek */ 
+}
+h1 {
+  margin-top: 60px;
+}
